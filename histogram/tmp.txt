@@ -1,9 +1,30 @@
+Thread number 2
 261a262,263
 > 
-> Runtime =       1.26 seconds
+> Runtime =     185.41 seconds
 261a262,263
 > 
-> Runtime =       0.52 seconds
+> Runtime =      60.96 seconds
 261a262,263
 > 
-> Runtime =       0.05 seconds
+> Runtime =       3.23 seconds
+Thread number 4
+261a262,263
+> 
+> Runtime =     142.36 seconds
+261a262,263
+> 
+> Runtime =      52.63 seconds
+261a262,263
+> 
+> Runtime =       3.28 seconds
+Thread number 8
+261a262,263
+> 
+> Runtime =     143.39 seconds
+261a262,263
+> 
+> Runtime =      51.05 seconds
+261a262,263
+> 
+> Runtime =       3.32 seconds

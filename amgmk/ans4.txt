@@ -17,7 +17,7 @@ max_num_threads = 4
 // 
 //------------ 
 
-Wall time = 0.839111 seconds. 
+Wall time = 1.051719 seconds. 
 
 //------------ 
 // 
@@ -25,7 +25,7 @@ Wall time = 0.839111 seconds.
 // 
 //------------ 
 
-Wall time = 0.966220 seconds. 
+Wall time = 0.952196 seconds. 
 
 //------------ 
 // 
@@ -33,6 +33,6 @@ Wall time = 0.966220 seconds.
 // 
 //------------ 
 
-Wall time = 0.087247 seconds. 
+Wall time = 0.083002 seconds. 
 
-Total Wall time = 1.917095 seconds. 
+Total Wall time = 2.112262 seconds. 

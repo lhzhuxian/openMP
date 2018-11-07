@@ -17,9 +17,10 @@ histo[10] = 10170000
 histo[11] = 15950000
 histo[12] = 19190000
 histo[13] = 22250000
-histo[14] = 22850000
-histo[15] = 26390000
-histo[16] = 30100000
+histo[14] = 261a262,263
+> 
+> Runtime =       0.89 seconds
+0000
 histo[17] = 33260000
 histo[18] = 35590000
 histo[19] = 38720000
@@ -260,4 +261,4 @@ histo[253] = 34130000
 histo[254] = 24690000
 histo[255] = 103940000
 
-Runtime =       3.32 seconds
+Runtime =       0.89 seconds
