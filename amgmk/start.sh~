@@ -1,0 +1,21 @@
+#!/bin/bash
+
+OMP_NUM_THREADS=2 ./histo_locks uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=4 ./histo_locks uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=8 ./histo_locks uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=2 ./histo_atomic uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=4 ./histo_atomic uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=8 ./histo_atomic uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=2 ./histo_creative uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=4 ./histo_creative uiuc.pgm > ans.txt
+diff validation.out ans.txt
+OMP_NUM_THREADS=8 ./histo_creative uiuc.pgm > ans.txt
+diff validation.out ans.txt
+

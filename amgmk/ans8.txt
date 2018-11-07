@@ -1,0 +1,38 @@
+
+//------------ 
+// 
+//  AMGmk Benchmark 
+// 
+//------------ 
+
+max_num_threads = 8 
+
+
+ testIter   = 1000 
+
+
+//------------ 
+// 
+//   MATVEC
+// 
+//------------ 
+
+Wall time = 0.813872 seconds. 
+
+//------------ 
+// 
+//   Relax
+// 
+//------------ 
+
+Wall time = 0.974068 seconds. 
+
+//------------ 
+// 
+//   Axpy
+// 
+//------------ 
+
+Wall time = 0.113538 seconds. 
+
+Total Wall time = 1.928902 seconds. 
