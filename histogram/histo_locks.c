@@ -86,7 +86,7 @@ unsigned char** read_img(char *filename, int *row, int *col,
                          int *imgtype)
 {   
   char     mw[5];
-  char    str[10];      
+  char    str[11];      
   int    com;
   unsigned char**  image;
   int     i, j, maxint;

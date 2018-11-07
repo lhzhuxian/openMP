@@ -7,7 +7,9 @@ LIB = -lm -lc
 UNITFILES = 
 
 #------------ EXECUTABLE FILES ---------------
-all: histo_atomic histo_locks histo_creative
+all: histo histo_atomic histo_locks histo_creative
+histo : histo.o $(UNITFILES)
+	$(CC) $(CFLAGS) -o histo histo.o $(UNITFILES) $(LIB)
 histo_atomic : histo_atomic.o $(UNITFILES)
 	$(CC) $(CFLAGS) -o histo_atomic histo_atomic.o $(UNITFILES) $(LIB)
 histo_locks : histo_locks.o $(UNITFILES)
@@ -18,6 +20,8 @@ histo_creative : histo_creative.o $(UNITFILES)
 clean:
 	rm -f histo *.o
 
+histo.o : histo.c
+	$(CC) $(CFLAGS) -c histo.c $(INCLUDE)
 histo_atomic.o : histo_atomic.c
 	$(CC) $(CFLAGS) -c histo_atomic.c $(INCLUDE) 
 histo_locks.o : histo_locks.c
